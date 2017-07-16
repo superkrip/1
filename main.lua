@@ -19,6 +19,10 @@ function main()
         print(a);
         a = a * 2;
     end
+
+    for i = 1, 10 do
+        print(i);
+    end
 end
 
 main()

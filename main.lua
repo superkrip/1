@@ -24,5 +24,4 @@ function main()
     printTypeNumber(d)
 end
 
-
 main()

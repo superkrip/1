@@ -14,14 +14,11 @@ function printTypeNumber(base)
 end
 
 function main()
-    local a = 10;
-    local b = 20;
-    local c = 30;
-    local d = 45;
-    printTypeNumber(a)
-    printTypeNumber(b)
-    printTypeNumber(c)
-    printTypeNumber(d)
+    local a = 0;
+    while (a < 10) do
+        print(a);
+        a = a * 2;
+    end
 end
 
 main()

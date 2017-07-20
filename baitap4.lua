@@ -8,8 +8,7 @@
 
 
 function sinx(x)
-    local a = math.sin(x)
-    return a
+    return math.sin(x)
 end
 
 function main()

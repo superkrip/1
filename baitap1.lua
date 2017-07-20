@@ -7,11 +7,11 @@
 --
 
 function xxx(a, b)
-    local c = a * a + b * b
-    return c
+    return a * a + b * b
 end
 
 function main()
     print(xxx(4,4))
 end
+
 main()

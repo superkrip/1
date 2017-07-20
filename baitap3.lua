@@ -7,15 +7,17 @@
 --
 
 function sosanh(a, b)
-    if a - b == 0 then print("a bang b") end
-    if a - b > 0 then print("a lon hon b") end
-    if a - b < 0 then print("a nho hon b") end
-
-
+    if a - b == 0 then
+        print("a bang b")
+    elseif a - b > 0 then
+        print("a lon hon b")
+    elseif a - b < 0 then
+        print("a nho hon b")
+    end
 end
 
 function main()
-print(sosanh(4, 4))
+    print(sosanh(4, 4))
 end
 
 main()

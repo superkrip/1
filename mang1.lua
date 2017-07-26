@@ -6,12 +6,12 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-function max(x)
+function max(a)
     a = {}
     for i = 1, i < n do
-        local b=0
-        if b < a[i] then b = a[i]
-        return b
+
+        if a >a[i] then a= a[i]
+        return a
     end
     end
 end

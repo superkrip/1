@@ -6,19 +6,19 @@
 -- To change this template use File | Settings | File Templates.
 --
 
-function max(x)
-    a = {}
-    for i = 1, i < n do
-       local b= a[1]
-
-        if b <a[i] then b= a[i]
-        return b
+function max(arr)
+    local max = arr[1];
+    for i, value in ipairs(arr) do
+        if value > max then
+            max = value
+        end
     end
-    end
+    return max
 end
 
 function main()
-    print(  { 1, 3, 4, 6, 7, 88, 9, 9, 9, 6, 4, 3, })
+    local a = { 1, 3, 4, 6, 7, 88, 9, 9, 9, 6, 4, 3 }
+    print(max(a))
 end
 
 main()

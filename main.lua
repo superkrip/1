@@ -14,7 +14,7 @@ function printTypeNumber(base)
 end
 
 function main()
-    local a = 0;
+    local a = 6;
     while (a < 10) do
         print(a);
         a = a * 2;

@@ -2,23 +2,24 @@
 -- Created by IntelliJ IDEA.
 -- User: Administrator
 -- Date: 7/27/2017
--- Time: 11:25 AM
+-- Time: 11:39 AM
 -- To change this template use File | Settings | File Templates.
 --
 
-function max(arr)
-    local max = arr[1];
+function sochan(arr)
+
     for i, value in ipairs(arr) do
-        if value > max then
-            max = value
+        if arr[i] %2 ==0 then
+            print(arr[i])
         end
     end
-    return max
+
+
 end
 
 function main()
     local a = { 1, 3, 4, 6, 7, 88, 9, 9, 9, 6, 4, 3 }
-    print(max(a))
+    print(sochan(a))
 end
 
 main()

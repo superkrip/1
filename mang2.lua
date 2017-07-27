@@ -2,14 +2,14 @@
 -- Created by IntelliJ IDEA.
 -- User: Administrator
 -- Date: 7/27/2017
--- Time: 11:25 AM
+-- Time: 11:37 AM
 -- To change this template use File | Settings | File Templates.
 --
 
 function max(arr)
     local max = arr[1];
     for i, value in ipairs(arr) do
-        if value > max then
+        if value < max then
             max = value
         end
     end
